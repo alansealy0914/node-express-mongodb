@@ -32,7 +32,7 @@ db.mongoose
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to Sealy's application." });
+  res.json({ message: "Welcome to Sealy WatchDogg-MQTT." });
 });
 
 require("./app/routes/turorial.routes")(app);
